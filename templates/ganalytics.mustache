@@ -33,7 +33,7 @@
     { "siteid": UA-90210-15, "addition": 2, }
 }}
 {{#js}}
-  var _gaq = _gaq || [];
+  var window._gaq = window._gaq || [];
   _gaq.push(['_setAccount', '{{analyticsid}}']);
   _gaq.push(['_trackPageview', '{{{page}}}']);
   _gaq.push(['_setSiteSpeedSampleRate', 50]);
